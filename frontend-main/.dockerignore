@@ -1,0 +1,15 @@
+.git
+.github
+.dart_tool
+.idea
+.vscode
+.build
+build
+coverage
+.env
+.env.*
+*.iml
+.scratch
+.cursor
+agent-transcripts
+**/*.md

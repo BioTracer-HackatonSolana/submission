@@ -1,0 +1,41 @@
+name: biotracer
+description: Frontend demonstrativo do BioTracer para gestão de insumos hospitalares.
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  camera: ^0.12.1
+  flutter_riverpod: ^3.4.2
+  intl: ^0.20.2
+  http: ^1.5.0
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Space Grotesk
+      fonts:
+        - asset: assets/fonts/SpaceGroteskVariable.ttf
+          weight: 400
+        - asset: assets/fonts/SpaceGroteskVariable.ttf
+          weight: 700
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/InterVariable.ttf
+          weight: 400
+        - asset: assets/fonts/InterVariable.ttf
+          weight: 700
+  assets:
+    - assets/branding/

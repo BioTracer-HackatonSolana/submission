@@ -1,0 +1,36 @@
+# Pastas de Dependências
+node_modules/
+*/node_modules/
+
+# Arquivos de Ambiente (Chaves e Senhas)
+.env
+*/.env
+*.key
+*.pem
+relayer.json
+
+# Builds e Compilados (Node)
+backend/dist/
+dist/
+build/
+*.tsbuildinfo
+
+# Builds e Compilados (Anchor/Rust)
+contracts/biotracer/target/
+target/
+**/*.rs.bk
+
+# Anchor & Solana Específicos
+.anchor/
+test-ledger/
+
+# Logs e Misc
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+# (Opcional) Ignorar lockfiles se preferir que cada um instale do zero
+# package-lock.json
+# yarn.lock
